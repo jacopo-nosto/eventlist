@@ -203,6 +203,8 @@
     <!-- Typed.js -->
     <script src="js/typed.js"></script>
     <script>
+        if($(window).width() > 600){
+            console.log("finestra maggiore 600");
     $(function(){
         $(".typed").typed({
             strings: ["you gave your first kiss", "the stage was on fire", "your boyfriend got drunk and you took him home on your shoulders", "Beth Ditto fell off the stage on high heels", "you went with your mom cause you were not 18 yet", "you ended up in a bar fight ^1000 you bad boy ;)", "you went whilst your football team was winning the World Cup"],
@@ -210,6 +212,10 @@
             loop: true
         });
     });
+        } else {
+            console.log("finestra maggiore 600");
+            return false;
+        }
     </script>
 
     <!-- Plugin JavaScript -->
