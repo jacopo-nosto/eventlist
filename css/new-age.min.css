@@ -251,7 +251,8 @@ section.contact {
 
 @media (min-width:992px) {
     header .header-content .header-content-inner h1 {
-        font-size: 50px
+        font-size: 50px;
+        height: 300px;
     }
 }
 
